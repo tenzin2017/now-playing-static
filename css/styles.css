@@ -262,9 +262,11 @@ article:not(:first-child){
   width: 30.66%;
   height:40%;
 }
-.movie-overview:not(:first-child){
-  display: none;
-}
+
+ .movie-overview{
+   display: none;
+ }
+
 
 .movie-details:not(:first-child) {
   font-size: .7em;
