@@ -223,8 +223,8 @@ figure {
 
 .site-logo {
   position: fixed;
-  top: 1rem;
-  left: .5rem;
+  top: 3%;
+  left: 1%;
   width: 50px;
   height: 50px;
   margin: 0;
@@ -233,6 +233,62 @@ figure {
 .site-nav-item {
   float: none;
 width: 100%;
+}
+
+.site-footer {
+  background: black;
+  display: inline-block;
+  width: 100%;
+}
+.footer-nav {
+  color: white;
+  float: left;
+  padding-left: 10%;
+  padding-top:5%;
+}
+.about {
+  color: white;
+  float: right;
+  background: black;
+  display: inline-block;
+}
+  }
+/*...............  .................*/
+/*responsive design for 992px*/
+/*..............................*/
+
+  @media (min-width:992px){
+article:not(:first-child){
+  width: 30.66%;
+  height:40%;
+}
+.movie-overview:not(:first-child){
+  display: none;
+}
+
+.movie-details:not(:first-child) {
+  font-size: .7em;
+}
+
+.site-footer{
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.about {
+  float: right;
+  background: black;
+  color: white;
+}
+.footer-nav {
+  float: left;
+  color: white;
+  padding-left: 9rem;
+  padding-top: 2em;
+}
+.site-footer {
+  background: black;
 }
 
   }
